@@ -4,11 +4,14 @@
 
 body {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 0.5em;
 }
 
 .btn {
@@ -26,7 +29,7 @@ a.btn {
 
 .btn-like::before {
   content: '';
-  background-image: url('./assets/img/heart.svg');
+  background-image: url('/assets/img/heart.svg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -102,7 +105,7 @@ a.btn {
 
 .card-title {
   font-size: 1.7em;
-  margin-top: 0;
+  margin: 0;
 }
 
 /* footer */ 
