@@ -65,6 +65,21 @@ body {
   font-size: 2em;
   text-transform: uppercase;
 }
+
+.topbar__filter {
+  background: #fff;
+  border: none;
+  padding: 0.5em;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #F9C948;
+}
+
+.topbar__filter--current {
+  background: rgba(223, 45, 45, 0.7);
+  color: white;
+}
   
 .logo {
   margin: 1em 0;
