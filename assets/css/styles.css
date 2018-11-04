@@ -23,11 +23,13 @@ body {
   display: inline-block;
 }
 
-a.btn {
+.btn {
   text-decoration: none;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-.btn-like::before {
+.btn--like::before {
   content: '';
   background-image: url('/assets/img/heart.svg');
   background-size: 100%;
@@ -40,20 +42,24 @@ a.btn {
   margin-right: 5px
 }
 
-.btn-like:hover {
+.btn--like:hover {
   background: white;
   color:  rgb(232, 181, 41);
 }
 
+.btn--like:focus {
+  outline: 2px solid #DF2E2D;
+}
+
 /* header */
-.navbar {
+.topbar {
   text-align: center;
   background: #F9C948;
   margin-bottom: 2em;
   padding-bottom: 1em;
 }
 
-.navbar .title {
+.topbar__title {
   color: white;
   margin: 0.5em 0;
   font-size: 2em;
