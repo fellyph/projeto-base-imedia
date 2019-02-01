@@ -54,9 +54,11 @@ body {
 /* header */
 .topbar {
   text-align: center;
-  background: #F9C948;
+  background: #100e17;
+  border-bottom: #F9C948;
   margin-bottom: 2em;
   padding-bottom: 1em;
+  display: flex;
 }
 
 .topbar__title {
