@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* common */
+/* variables */
 
 :root {
+  --logo-img: url('../img/imedia_logo.jpg');
   --menu-height: 100px;
   --primary-color: #F9C948;
   --secondary-color: #DF2E2D;
@@ -154,9 +155,16 @@ body {
 }
 
 .logo {
+  font-size: 16px;
   margin: 1em 0;
+  background-image: var(--logo-img);
+  background-repeat: no-repeat;
+  background-size: contain;
   display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
   height: var(--menu-height);
+  width: var(--menu-height);
 }
 
 /* course */
